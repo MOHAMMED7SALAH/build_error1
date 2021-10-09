@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "790528541414",
+    "project_id": "cosmo-corner-da8ff",
+    "storage_bucket": "cosmo-corner-da8ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790528541414:android:f2f386c734afae4f9a7127",
+        "android_client_info": {
+          "package_name": "com.cemicoln.cosmo_corner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790528541414-2rir4si43ij6tao21t8b6paegv0torrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPaE9Oi9jys1tEYe7NZDi9KLtHf_K6GVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790528541414-2rir4si43ij6tao21t8b6paegv0torrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+name: saffi
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+16
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  flutter_svg:
+  dio: ^3.0.8
+  toast: any
+  pin_code_fields: any
+  dots_indicator:
+  carousel_slider: ^1.3.0
+  carousel_pro: ^1.0.0
+  smooth_star_rating: ^1.1.1
+  flutter_range_slider:
+  provider:
+  shared_preferences: ^0.5.12+4
+  lottie: ^0.7.0+1
+  cached_network_image:
+  badges: ^1.2.0
+  auto_size_text: any
+  firebase_admob: 0.9.3
+  flutter_html:
+  flutter_datetime_picker:
+  intl:
+  flutter_svg_provider:
+  url_launcher: any
+  firebase_messaging:
+  shimmer:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+  flutter_launcher_name: "^0.0.1"
+
+flutter_launcher_name:
+  name: "Fishbook"
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/LOGO.JPG"
+module:
+  androidX: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/icons/
+    - assets/lang/en.json
+    - assets/lang/ar.json
+    # - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
